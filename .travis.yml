@@ -1,0 +1,7 @@
+language: ruby 
+rvm: 
+- 2.5 # RVM should install 2.5 for FreeBSD 
+- 2.6 # should use default pre-installed 2.6.5
+
+script:
+ - ruby hello_world.rb
