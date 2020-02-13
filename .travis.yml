@@ -4,4 +4,5 @@ rvm:
 - 2.6 # should use default pre-installed 2.6.5
 
 script:
+ - rvm list known
  - ruby hello_world.rb
